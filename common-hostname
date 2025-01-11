@@ -575,6 +575,42 @@ license9
 srv-license
 srv-license1
 
+# Monitoring / Supervision
+icinga
+icinga2
+srv-icinga
+grafana
+srv-grafana
+grafana01
+prometheus
+srv-prometheus
+prometheus01
+newrelic
+datadog
+netdata
+opsview
+
+# ITSM / Gestion des tickets
+otrs
+srv-otrs
+osticket
+srv-osticket
+freshservice
+servicenow
+srv-servicenow
+topdesk
+
+# Gestion de code et CI/CD
+bitbucket
+bitbucket01
+srv-bitbucket
+code-server
+jenkins
+srv-jenkins
+jenkins01
+circleci
+drone
+
 
 # manual edit 
 zabbix
