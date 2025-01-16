@@ -1,4 +1,3 @@
-# Active Directory (AD)
 ad
 ad1
 ad2
@@ -39,8 +38,6 @@ srv-dc6
 srv-dc7
 srv-dc8
 srv-dc9
-
-# DNS
 dns
 dns1
 dns2
@@ -61,8 +58,6 @@ srv-dns6
 srv-dns7
 srv-dns8
 srv-dns9
-
-# DHCP
 dhcp
 dhcp1
 dhcp2
@@ -83,8 +78,6 @@ srv-dhcp6
 srv-dhcp7
 srv-dhcp8
 srv-dhcp9
-
-# IDS / IPS
 ids
 ids1
 ids2
@@ -125,8 +118,6 @@ srv-ips6
 srv-ips7
 srv-ips8
 srv-ips9
-
-# WSUS / Updates
 wsus
 wsus1
 wsus2
@@ -168,8 +159,6 @@ srv-updates6
 srv-updates7
 srv-updates8
 srv-updates9
-
-# Proxy
 proxy
 proxy1
 proxy2
@@ -190,8 +179,6 @@ srv-proxy6
 srv-proxy7
 srv-proxy8
 srv-proxy9
-
-# Mirror
 mirror
 mirror1
 mirror2
@@ -212,8 +199,6 @@ srv-mirror6
 srv-mirror7
 srv-mirror8
 srv-mirror9
-
-# File Server (FS) / SMB / Share
 fs
 fs1
 fs2
@@ -274,8 +259,6 @@ share6
 share7
 share8
 share9
-
-# Mail / Exchange
 mail
 mail1
 mail2
@@ -300,8 +283,6 @@ exchange8
 exchange9
 srv-exchange
 srv-exchange1
-
-# Web / App
 web
 web1
 web2
@@ -326,8 +307,6 @@ app8
 app9
 srv-app
 srv-app1
-
-# Database (DB)
 db
 db1
 db2
@@ -352,8 +331,6 @@ sql8
 sql9
 srv-sql
 srv-sql1
-
-# Backup / Archive
 backup
 backup1
 backup2
@@ -378,8 +355,6 @@ archive8
 archive9
 srv-archive
 srv-archive1
-
-# Monitoring / Logs
 monitor
 monitor1
 monitor2
@@ -404,8 +379,6 @@ logs8
 logs9
 srv-logs
 srv-logs1
-
-# Virtualisation
 vm
 vm1
 vm2
@@ -428,8 +401,6 @@ esxi
 esxi1
 srv-esxi
 srv-esxi1
-
-# Print Server
 print
 print1
 print2
@@ -442,8 +413,6 @@ print8
 print9
 srv-print
 srv-print1
-
-# Load Balancer
 lb
 lb1
 lb2
@@ -456,8 +425,6 @@ lb8
 lb9
 srv-lb
 srv-lb1
-
-# Storage / NAS
 storage
 storage1
 storage2
@@ -482,8 +449,6 @@ nas8
 nas9
 srv-nas
 srv-nas1
-
-# Authentication / Radius
 auth
 auth1
 auth2
@@ -508,8 +473,6 @@ radius8
 radius9
 srv-radius
 srv-radius1
-
-# Firewall / VPN
 fw
 fw1
 fw2
@@ -534,8 +497,6 @@ vpn8
 vpn9
 srv-vpn
 srv-vpn1
-
-# Dev / Testing
 dev
 dev1
 dev2
@@ -560,8 +521,6 @@ test8
 test9
 srv-test
 srv-test1
-
-# License / Key Management
 license
 license1
 license2
@@ -574,8 +533,6 @@ license8
 license9
 srv-license
 srv-license1
-
-# Monitoring / Supervision
 icinga
 icinga2
 srv-icinga
@@ -589,8 +546,6 @@ newrelic
 datadog
 netdata
 opsview
-
-# ITSM / Gestion des tickets
 otrs
 srv-otrs
 osticket
@@ -599,8 +554,6 @@ freshservice
 servicenow
 srv-servicenow
 topdesk
-
-# Gestion de code et CI/CD
 bitbucket
 bitbucket01
 srv-bitbucket
@@ -610,9 +563,6 @@ srv-jenkins
 jenkins01
 circleci
 drone
-
-
-# manual edit 
 zabbix
 srv-zabbix
 zabbix-srv
@@ -704,5 +654,3 @@ fw
 fwl
 fwl01
 srv-fwl
-
-
