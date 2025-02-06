@@ -91,6 +91,14 @@ resolve_and_check() {
 
 # Display banner
 banner
+# Function to display results without "ERROR"
+display_results_without_error() {
+    if [ -n "$logfile" ] && [ -f "$logfile" ]; then
+        grep -v "ERROR" "$logfile"
+    else
+        echo "No log file specified or log file not found."
+    fi
+}
 
 # Clear log file if it exists
 if [ -n "$logfile" ]; then
@@ -102,3 +110,4 @@ while IFS= read -r subdomain; do
     resolve_and_check "$subdomain"
 done < "$file"
 
+display_results_without_error
